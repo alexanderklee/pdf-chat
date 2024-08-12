@@ -177,3 +177,4 @@ Open a shell and change the environment to point to the main project pipenv envi
 
 #pipenv shell
 #source /Users/user-id/.local/share/virtualenvs/pdf-v1PEAIww/bin/activate
+# pdf-chat
