@@ -160,3 +160,20 @@ Then:
 ```
 flask --app app.web init-db
 ```
+
+### To run the upload server (local-do-files)
+
+Open a new terminal window and create a new virtual environment
+
+On MacOS, extract the contents of local-do-files.zip to a directory outside the main project directories:
+
+#unzip local-do-files.zip
+#cd local-do-files
+
+Then install the files using the provided Pipfile
+#pipenv install
+
+Open a shell and change the environment to point to the main project pipenv environment. This is printed out when you ran 'pipenv shell'
+
+#pipenv shell
+#source /Users/user-id/.local/share/virtualenvs/pdf-v1PEAIww/bin/activate
